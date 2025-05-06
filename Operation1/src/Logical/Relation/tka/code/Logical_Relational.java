@@ -4,7 +4,7 @@ public class Logical_Relational {
 
 	public void Testing(int a,int b, int c) {
 		
-		if(a!=0 && b!=0 && c!=0 || a < 0 || b < 0 || c <0 ) {
+		if(a!=0 && b!=0 && c!=0 && a > 0 && b > 0 && c >0 ) {
 			if(a>b && a>c) {
 				System.out.println("A is gerater than B and C "+a);
 			}
